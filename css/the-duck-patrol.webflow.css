@@ -4907,8 +4907,12 @@ figcaption {
     color: #1aff00;
   }
 
-  .punks-slider_content {
+  .punks-slider_component {
     overflow: hidden;
+  }
+
+  .punks-slider_content {
+    overflow: visible;
   }
 
   .punks-slider_list {
