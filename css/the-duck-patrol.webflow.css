@@ -2485,6 +2485,7 @@ figcaption {
 }
 
 .navbar_menu-button {
+  display: none;
   padding: 0rem;
 }
 
@@ -2563,7 +2564,7 @@ figcaption {
 }
 
 .navbar_button.purple {
-  display: none;
+  display: block;
   margin-top: 2rem;
   margin-bottom: 2rem;
   -webkit-align-self: center;
@@ -3337,7 +3338,7 @@ figcaption {
 }
 
 .footer1_link-2.hidden {
-  display: none;
+  display: block;
 }
 
 .faq2_component {
@@ -4657,6 +4658,10 @@ figcaption {
     display: block;
   }
 
+  .navbar_menu-button {
+    display: none;
+  }
+
   .navbar_menu {
     background-color: rgba(0, 0, 0, 0.71);
     color: #9ac0e6;
@@ -4664,6 +4669,10 @@ figcaption {
 
   .navbar_component {
     height: 3rem;
+  }
+
+  .navbar_button.purple {
+    text-align: center;
   }
 
   .heading {
