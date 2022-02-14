@@ -2429,7 +2429,7 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  color: #fff;
+  color: #eed167;
   text-align: right;
 }
 
@@ -2452,7 +2452,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #fff;
+  color: #eed167;
 }
 
 .navbar_link {
@@ -2498,7 +2498,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #9ac0e6;
+  color: #eed167;
   font-weight: 900;
 }
 
@@ -2516,7 +2516,7 @@ figcaption {
   background-color: rgba(31, 27, 27, 0.8);
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
-  color: #fff;
+  color: #eed167;
 }
 
 .navbar_social-wrapper {
@@ -2545,12 +2545,17 @@ figcaption {
 .navbar_button {
   margin-left: 1rem;
   padding: 0.5rem 1.5rem;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   border-radius: 100px;
   background-color: #575858;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #fff;
   font-weight: 500;
+  text-align: center;
   letter-spacing: 0em;
 }
 
@@ -2566,6 +2571,7 @@ figcaption {
 .navbar_button.purple {
   display: block;
   margin-top: 2rem;
+  margin-right: 1rem;
   margin-bottom: 2rem;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -2676,6 +2682,9 @@ figcaption {
 .container.left-aligned {
   padding-right: 2%;
   padding-left: 2%;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2797,7 +2806,7 @@ figcaption {
 .heading-6 {
   padding-top: 0rem;
   font-family: Digitaldisco, sans-serif;
-  color: #9ac0e6;
+  color: #eed167;
   font-size: 3.5rem;
   text-align: center;
 }
@@ -2990,7 +2999,7 @@ figcaption {
   display: inline-block;
   padding-right: 1em;
   font-family: 'Space Mono', sans-serif;
-  color: #9ac0e6;
+  color: #eed167;
   font-size: 1.5rem;
   text-align: justify;
 }
@@ -3021,7 +3030,7 @@ figcaption {
 }
 
 .text-span {
-  color: #9ac0e6;
+  color: #eed167;
 }
 
 .heading-9 {
@@ -3150,6 +3159,10 @@ figcaption {
   width: 100%;
   height: 1px;
   background-color: #000;
+}
+
+.form {
+  background-color: transparent;
 }
 
 .footer1_column {
@@ -3766,6 +3779,11 @@ figcaption {
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
+}
+
+.text-block-4 {
+  font-family: Digitaldisco, sans-serif;
+  color: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -4664,11 +4682,16 @@ figcaption {
 
   .navbar_menu {
     background-color: rgba(0, 0, 0, 0.71);
-    color: #9ac0e6;
+    color: #eed167;
   }
 
   .navbar_component {
     height: 3rem;
+  }
+
+  .navbar_button {
+    background-color: rgba(154, 192, 230, 0.68);
+    color: #eed167;
   }
 
   .navbar_button.purple {
@@ -4899,7 +4922,7 @@ figcaption {
   .roadmap-2 {
     margin-bottom: 0.5rem;
     font-family: 'Space Mono', sans-serif;
-    color: #9ac0e6;
+    color: #eed167;
   }
 
   .bold-text-6 {
