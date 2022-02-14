@@ -2543,7 +2543,7 @@ figcaption {
 }
 
 .navbar_button {
-  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 0.5rem 1.5rem;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
