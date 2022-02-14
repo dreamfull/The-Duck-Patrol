@@ -2571,7 +2571,7 @@ figcaption {
 .navbar_button.purple {
   display: block;
   margin-top: 2rem;
-  margin-right: 1rem;
+  margin-right: 0rem;
   margin-bottom: 2rem;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
