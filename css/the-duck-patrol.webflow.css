@@ -10,6 +10,11 @@
   grid-column-gap: 16px;
 }
 
+::selection{
+  background: #1aff0087;
+  color: #3898ec;
+}
+
 .w-checkbox {
   display: block;
   margin-bottom: 5px;
@@ -2917,8 +2922,8 @@ figcaption {
 .home-howto_progress-bar {
   width: 4px;
   height: 100%;
-  background-color: #fff;
-  background-image: repeating-linear-gradient(138deg, #7300ff, #00ff40);
+  background-color: #00ff40;
+  background-image: #00ff40;
 }
 
 .grid-2 {
