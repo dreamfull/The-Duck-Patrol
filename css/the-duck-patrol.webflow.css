@@ -2572,7 +2572,7 @@ figcaption {
 .navbar_button.purple {
   display: block;
   margin-top: 2rem;
-  margin-right: 0rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -2592,6 +2592,10 @@ figcaption {
 .navbar_button.purple:hover {
   background-color: #fff;
   color: #101111;
+}
+
+.navbar_button.purple.no-mragin {
+  margin-right: 0rem;
 }
 
 .heading {
@@ -3791,6 +3795,62 @@ figcaption {
   font-family: 'Space Mono', sans-serif;
   color: #eed167;
   font-size: 2.3rem;
+}
+
+.heading-14 {
+  width: 100%;
+  margin-top: 2rem;
+  font-family: 'Space Mono', sans-serif;
+  color: rgba(26, 255, 0, 0.86);
+  font-size: 1.75rem;
+  text-align: justify;
+}
+
+.heading-15 {
+  width: 100%;
+  margin-top: 2rem;
+  color: rgba(154, 192, 230, 0.68);
+  font-size: 1rem;
+  text-align: left;
+}
+
+.body-2 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.image-4 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.image-5 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.section-2 {
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.image-6 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.image-7 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.image-8 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.image-9 {
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 991px) {
